@@ -1,0 +1,84 @@
+.firstdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0px;
+    /* border: 1px solid red; */
+    
+    height: 95vh;
+}
+.firstdiv div{
+    margin-right: 10px;
+}
+.carrierlight{
+    display: flex;
+    background-color: white;
+    
+}
+.carrierdark{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.firstdiv img{
+    width: 60px;
+    
+}
+.fd2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fd2>i:hover{
+   color: white;
+   padding: 25px ;
+   background-color: rgb(74, 158, 190);
+   cursor: pointer;
+   border-radius: 10px;
+   
+}
+.firstdiv i{
+    padding: 20px;
+    font-size: 25px;
+    
+}
+.sd1{
+    display: flex;
+    gap: 40px;
+}
+.ssd1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.toggle{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: rgb(221, 218, 218);
+
+}
+.right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: rgb(221, 218, 218);
+}
+.sd1>p{
+    font-size: 30px;
+    font-weight: 550;
+}
